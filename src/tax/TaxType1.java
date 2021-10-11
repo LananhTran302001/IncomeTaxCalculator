@@ -21,7 +21,7 @@ public class TaxType1 extends IncomeTax {
         int incomeTax = 0;
 
         if (taxableIncome <= 5000000) {
-            incomeTax = taxableIncome * 5 / 100;
+            incomeTax = (int) Math.ceil(taxableIncome * 5 / 100);
         } else if (taxableIncome <= 10000000) {
             incomeTax = (int) Math.ceil(250000 + (taxableIncome - 5000000) * 0.1);
         } else if (taxableIncome <= 18000000) {

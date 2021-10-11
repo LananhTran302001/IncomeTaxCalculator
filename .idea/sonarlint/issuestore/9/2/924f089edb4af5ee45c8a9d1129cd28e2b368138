@@ -1,0 +1,19 @@
+
+U
+java:S1854"8Remove this useless assignment to local variable "buff".(Õ´Å8±ù¶ğÆ/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¦¼Ÿøÿÿÿÿ
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(õØ¤øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(´æ½Çÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¼¡ãŠ
+F
+java:S1481")Remove this unused "buff" local variable.(Õ´Å8½ù¶ğÆ/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(òéÉ’ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ù²Ôüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(°ç“’ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ä—Óº
+M	java:S106"9Replace this use of System.out or System.err by a logger.(¢‚"
+0
+java:S1220""Move this file to a named package.
+ƒ
+java:S4165"hRemove this useless assignment; "isResident" already holds the assigned value along all execution paths.(Ÿ¿ƒ¶úÿÿÿÿ

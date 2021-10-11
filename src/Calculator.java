@@ -13,6 +13,11 @@ public class Calculator {
      */
     public int calculate(int totalIncome,  int taxReduction,
                          int taxExemption, boolean isResident, int laborContractTime) {
+
+        if ((laborContractTime < 0) || (laborContractTime > 36)) {
+            return -1;
+        }
+
         if (isResident) {
             if (laborContractTime >= 3) {
                 return new TaxType1(totalIncome, taxReduction, taxExemption).getTaxValue();
