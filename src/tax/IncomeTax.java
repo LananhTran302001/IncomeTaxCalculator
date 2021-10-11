@@ -1,13 +1,25 @@
 package tax;
 
 public abstract class IncomeTax {
-    int taxableIncome;
+    private int taxableIncome;
 
-    public IncomeTax(int totalIncome, int taxReduction, int taxExemption) {
-        // totalIncome: tổng thu nhập
-        // taxReduction: các khoản giảm trừ
-        // taxExemption: các khoản miễn thuế
-        taxableIncome = totalIncome - taxReduction - taxExemption;
+    /**
+     * @param totalIncome: tổng thu nhập (VND)
+     * @param taxReduction: các khoản giảm trừ (VND)
+     * @param taxExemption: các khoản miễn thuế (VND)
+     */
+    protected IncomeTax(int totalIncome, int taxReduction, int taxExemption) {
+        if (totalIncome < 0 || taxReduction < 0 || taxExemption < 0) {
+            taxableIncome = -1;
+        } else if (totalIncome - taxReduction - taxExemption < 0) {
+            taxableIncome = -1;
+        } else {
+            taxableIncome = totalIncome - taxReduction - taxExemption;
+        }
+    }
+
+    public int getTaxableIncome() {
+        return taxableIncome;
     }
 
     public abstract int getTaxValue();

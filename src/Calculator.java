@@ -3,6 +3,14 @@ import tax.TaxType2;
 import tax.TaxType3;
 
 public class Calculator {
+
+    /**
+     * @param totalIncome: tổng thu nhập (VND)
+     * @param taxReduction: các khoản giảm trừ (VND)
+     * @param taxExemption: các khoản miễn thuế (VND)
+     * @param isResident: cư trú tại Việt Nam (True/False)
+     * @param laborContractTime: thời gian ký hợp đồng lao động (theo tháng)
+     */
     public int calculate(int totalIncome,  int taxReduction,
                          int taxExemption, boolean isResident, int laborContractTime) {
         if (isResident) {
