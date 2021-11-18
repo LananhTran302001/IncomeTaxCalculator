@@ -19,7 +19,9 @@ G
 IncomeTaxCalculator.iml,a\1\a13b4bc8ae08337fe235f825444fc537d593410a
 L
 test/CalculatorTest_BVA.java,6\f\6f22f54c34798e3b5746b4c127a3f1a5b9d86440
-L
-test/CalculatorTest_WBT.java,3\a\3a2ce5dbc11a51fb7228860435c2a7ab4ab58a2e
 C
 src/Calculator.java,f\9\f95cb5c0fd95502bf34d6874131d97605e9197f6
+L
+test/CalculatorTest_WBT.java,3\a\3a2ce5dbc11a51fb7228860435c2a7ab4ab58a2e
+L
+test/CalculatorTest_DFT.java,3\b\3b6e587b60e001a8f3d356e457bdf7bcf040c147
